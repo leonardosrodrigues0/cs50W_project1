@@ -10,8 +10,9 @@
 
     <form action = "{% url 'newpage' %}" method = "POST">
         {% csrf_token %}
-        {{ form }}
-        <input type = "submit">
+        <label for = "{{ form.content.id_for_label }}"></label>{{ form.name }}
+        <input type = "submit" class = "button">
+        <label for = "{{ form.content.id_for_label }}"></label>{{ form.content }}
     </form>
 
 {% endblock %}

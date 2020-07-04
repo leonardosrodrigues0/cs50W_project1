@@ -1,38 +1,74 @@
 body {
-    margin: 0;
-    background-color: white;
-}
+  margin: 0;
+  background-color: white;
+  font-family: Verdana !important; }
 
 code {
-    white-space: pre;
-}
-
-h1 {
-    margin-top: 0px;
-    padding-top: 20px;
-}
+  white-space: pre; }
 
 textarea {
-    height: 90vh;
-    width: 80%;
-}
+  height: 90vh;
+  width: 80%; }
 
 .main {
-    padding: 10px;
-}
+  padding: 10px;
+  font-size: 14pt; }
+  .main #maincontent {
+    margin: 0 20pt; }
+  .main h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 40pt; }
 
-.search {
-    width: 100%;
-    font-size: 15px;
-    line-height: 15px;
-}
+#id_name, #id_content {
+  margin: 5pt; }
+
+#id_name {
+  padding-left: 5pt;
+  font-size: 18pt; }
+
+#id_content {
+  height: 250pt;
+  padding: 15pt; }
+
+.button {
+  background-color: #3b3b3b;
+  color: white;
+  border-radius: 5pt; }
 
 .sidebar {
-    background-color: #f0f0f0;
-    height: 100vh;
-    padding: 20px;
-}
+  background-color: #5e5e5e;
+  height: 100vh;
+  padding: 20px;
+  font-size: 24px;
+  width: 300px; }
+  .sidebar #sidebarheader {
+    margin: 10px 0;
+    text-align: center;
+    width: 100%; }
+    .sidebar #sidebarheader #wiki {
+      font-size: 50pt;
+      text-decoration: none;
+      color: black;
+      font-weight: bold; }
+    .sidebar #sidebarheader .search {
+      width: 100%;
+      line-height: 30px;
+      border-radius: 2pt;
+      padding-left: 5pt; }
+    .sidebar #sidebarheader #searchbutton {
+      margin-top: 2pt;
+      width: 80%; }
+  .sidebar #sidebarbody a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    border-top: solid;
+    border-bottom: solid;
+    margin-top: -1pt;
+    border-width: 1pt;
+    border-color: #3b3b3b; }
 
-.sidebar h2 {
-    margin-top: 5px;
-}
+/*# sourceMappingURL=styles.css.map */

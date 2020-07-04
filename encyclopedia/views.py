@@ -17,7 +17,7 @@ def validate_entry(name):
         if namelower == entry.lower():
             raise ValidationError(
                 gettext_lazy('A page for "%(name)s" already exists'),
-                params={'name': name},
+                params = {'name': name},
             )
 
 
@@ -31,16 +31,18 @@ class NewEntryForm(forms.Form):
     )
 
     content = forms.CharField(
-        label="",
-        widget=forms.Textarea(attrs={'placeholder':'Content'})
+        label = "",
+        widget = forms.Textarea(attrs={'placeholder':'Content'}),
+        min_length = 1
     )
 
 
 # Form to edit pages
 class EditEntryForm(forms.Form):
     content = forms.CharField(
-        label="",
-        widget=forms.Textarea(attrs={'placeholder':'Content'})
+        label = "",
+        widget = forms.Textarea(attrs={'placeholder':'Content'}),
+        min_length = 1
     )
 
 

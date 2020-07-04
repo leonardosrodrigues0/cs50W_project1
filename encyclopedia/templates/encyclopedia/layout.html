@@ -15,27 +15,45 @@
     </head>
     <body>
         <div class = "row">
-            <div class = "sidebar col-lg-2 col-md-3">
-                <h2>Wiki</h2>
-                <form action = "{% url 'search' %}">
-                    <input class = "search" type = "text" name = "q" placeholder = "Search Encyclopedia">
-                    <button type = "submit">Search</button>
-                </form>
-                <div>
-                    <a href = "{% url 'index' %}">Home</a>
+            <div class = "sidebar">
+                <div id = "sidebarheader">
+                    <a href = "{% url 'index' %}" id = "wiki">Wiki</a>
+                    <form action = "{% url 'search' %}">
+                        <input class = "search" type = "text" name = "q" placeholder = "Search Wiki">
+                        <button id = "searchbutton" class = "button" type = "submit">Search</button>
+                    </form>
                 </div>
-                <div>
-                    <a href = "{% url 'newpage' %}">Create New Page</a>
+                <div id = "sidebarbody">
+                    <div>
+                        <a href = "{% url 'index' %}">
+                            <div class="item">
+                                Home
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href = "{% url 'newpage' %}">
+                            <div class="item">
+                                Create New Page
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href = "{% url 'randompage' %}">
+                            <div class="item">
+                                Random Page
+                            </div>
+                        </a>
+                    </div>
+                    {% block nav %}
+                    {% endblock %}
                 </div>
-                <div>
-                    <a href = "{% url 'randompage' %}">Random Page</a>
-                </div>
-                {% block nav %}
-                {% endblock %}
             </div>
-            <div class = "main col-lg-10 col-md-9">
-                {% block body %}
-                {% endblock %}
+            <div class = "main">
+                <div id = "maincontent">
+                    {% block body %}
+                    {% endblock %}
+                </div>
             </div>
         </div>
 
