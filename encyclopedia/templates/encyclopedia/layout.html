@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class = "row">
-            <div class = "sidebar">
+            <div class = "sidebar col-lg-2 col-md-3 col-sm-3">
                 <div id = "sidebarheader">
                     <a href = "{% url 'index' %}" id = "wiki">Wiki</a>
                     <form action = "{% url 'search' %}">
@@ -26,30 +26,24 @@
                 <div id = "sidebarbody">
                     <div>
                         <a href = "{% url 'index' %}">
-                            <div class="item">
-                                Home
-                            </div>
+                            Home
                         </a>
                     </div>
                     <div>
                         <a href = "{% url 'newpage' %}">
-                            <div class="item">
-                                Create New Page
-                            </div>
+                            Create New Page
                         </a>
                     </div>
                     <div>
                         <a href = "{% url 'randompage' %}">
-                            <div class="item">
-                                Random Page
-                            </div>
+                            Random Page
                         </a>
                     </div>
                     {% block nav %}
                     {% endblock %}
                 </div>
             </div>
-            <div class = "main">
+            <div class = "main col-lg-10 col-md-9 col-sm-9">
                 <div id = "maincontent">
                     {% block body %}
                     {% endblock %}

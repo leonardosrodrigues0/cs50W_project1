@@ -1,3 +1,6 @@
+html {
+  overflow-y: scroll; }
+
 body {
   margin: 0;
   background-color: white;
@@ -21,7 +24,11 @@ textarea {
     font-size: 40pt; }
 
 #id_name, #id_content {
-  margin: 5pt; }
+  margin: 5pt;
+  width: 70%; }
+
+form {
+  width: 100%; }
 
 #id_name {
   padding-left: 5pt;
@@ -40,8 +47,7 @@ textarea {
   background-color: #5e5e5e;
   height: 100vh;
   padding: 20px;
-  font-size: 24px;
-  width: 300px; }
+  font-size: 24px; }
   .sidebar #sidebarheader {
     margin: 10px 0;
     text-align: center;

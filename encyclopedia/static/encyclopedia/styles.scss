@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll; 
+}
+
 body {
     margin: 0;
     background-color: white;
@@ -30,6 +34,11 @@ textarea {
 
 %inputfields {
     margin: 5pt;
+    width: 70%;
+}
+
+form {
+    width: 100%;
 }
 
 #id_name {
@@ -55,7 +64,6 @@ textarea {
     height: 100vh;
     padding: 20px;
     font-size: 24px;
-    width: 300px;
 
     #sidebarheader {
         margin: 10px 0;

@@ -8,6 +8,8 @@
 
     <h1>New page</h1>
 
+    <p>You should write your page using markdown. <a href = "Markdown">What does that mean?</a></p>
+
     <form action = "{% url 'newpage' %}" method = "POST">
         {% csrf_token %}
         <label for = "{{ form.content.id_for_label }}"></label>{{ form.name }}
