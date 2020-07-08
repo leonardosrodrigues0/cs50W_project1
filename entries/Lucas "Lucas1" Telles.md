@@ -1,0 +1,1 @@
+A.K.A The "Que Ota" King, is a professional counter-strike player, now a days ia free agency.

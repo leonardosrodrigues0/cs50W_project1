@@ -1,0 +1,2 @@
+**FamilySearch** is an organization of The Church of Jesus Christ of Latter-day Saints, that, based in the idea that all records of a living or deceased person should be preserved, scan old files of notaries, churches, cemiteries, army, portuary archives et cetera, all around the world. Those are open for research for all people in the FamilySearch website in which you can search, index and keep genealogical information.
+You can also create a family tree to organize the information about your own family and kin.
