@@ -1,4 +1,4 @@
-Markdown is a simple language that helps webpage creators. To create a mardown file you can use the following features. To see how to do them, click on **edit page** and see the source (please don't submit).
+Markdown is a simple language that helps webpage creators. To create a mardown file you can use the following features. To see how to do them, click on [edit page](/edit-Markdown) and see the source. **Please don't submit this page**, as other people might need it to create pages.
 
 ---
 

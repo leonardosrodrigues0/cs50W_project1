@@ -1,0 +1,1 @@
+Jorge Mário da Silva, more known by Seu Jorge, is a famous brazilian musical artist who writes and sings great songs. His main musical genre is Samba, one of the greatest and best known in Brazil. If you haven't heard yet "Amiga da minha mulher", "Mina do condomínio" or "Samba rock", you need to do it quickly!

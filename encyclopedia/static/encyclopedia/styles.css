@@ -15,7 +15,8 @@ textarea {
 
 .main {
   padding: 10px;
-  font-size: 14pt; }
+  font-size: 14pt;
+  background-color: white;}
   .main #maincontent {
     margin: 0 20pt; }
   .main h1 {

@@ -1,0 +1,1 @@
+In spain, mainly in big cities, many families look for young people to live with them, take care of the children and above all to speak with them in english. They usually pay 70 euros a week for a 30/35 hours schedule. It's a fantastic way to learn spanish, get to know a new culture, live with a different family and you only need to spend on the flight ticket.
