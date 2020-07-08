@@ -24,8 +24,7 @@ textarea {
     font-size: 40pt; }
 
 #id_name, #id_content {
-  margin: 5pt;
-  width: 70%; }
+  margin: 5pt; }
 
 form {
   width: 100%; }
@@ -36,7 +35,8 @@ form {
 
 #id_content {
   height: 250pt;
-  padding: 15pt; }
+  padding: 15pt;
+  width: 70%; }
 
 .button {
   background-color: #3b3b3b;
